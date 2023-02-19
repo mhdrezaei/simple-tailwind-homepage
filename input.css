@@ -18,6 +18,10 @@ body {
   @apply max-w-6xl mx-auto text-center;
 }
 
+.feature-item {
+  @apply flex flex-col justify-center p-3 space-y-3;
+}
+
 @layer base {
   h3 {
     @apply text-4xl text-darkGrayishBlue mb-8 font-bold md:text-5xl;
