@@ -13,3 +13,13 @@ body {
     background-image: url("../images/bg-header-mobile.png");
   }
 }
+
+.section-container {
+  @apply max-w-6xl mx-auto text-center;
+}
+
+@layer base {
+  h3 {
+    @apply text-4xl text-darkGrayishBlue mb-8 font-bold md:text-5xl;
+  }
+}
