@@ -22,8 +22,21 @@ body {
   @apply flex flex-col justify-center p-3 space-y-3;
 }
 
+.button-container {
+  @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+}
+
 @layer base {
   h3 {
     @apply text-4xl text-darkGrayishBlue mb-8 font-bold md:text-5xl;
   }
+
+  h5 {
+    @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+  }
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
 }
